@@ -1,0 +1,769 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>WoniuCBT-测试报告</title>
+    </head>
+    <body style="margin-top: 20px;font-family: '微软雅黑';">
+    <table border="1" cellspacing="0" cellpadding="5" width="90%" align="center">
+        <tr bgcolor="#2e8b57" style="font-size: 30px;">
+            <td height="60" colspan="5">WoniuBoss-接口自动化测试报告</td>
+        </tr>
+        <tr style="font-size: 20px;">
+            <td width="20%">被测产品: WoniuBoss3.5</td>
+            <td width="15%">成功：18个</td>
+            <td width="15%">失败：84个</td>
+            <td width="15%">异常：0个</td>
+            <td width="15%">最后时间：2020-06-20 14:34:00</td>
+        </tr>
+    </table>
+    <p/>
+    <table border="1" cellspacing="0" cellpadding="5" width="90%" align="center">
+        <tr height="40" bgcolor="#2e8b57">
+            <td width="15%">接口名称</td>
+            <td width="15%">用例编号</td>
+            <td width="20%">标题</td>
+            <td width="15%">结果</td>
+            <td width="15%">执行时间</td>
+            <td width="20%">错误信息</td>
+        </tr>
+        <!此处定义变量，遍历数据即可-->
+        <tr height="40">
+<td width="7%">登录接口</td>
+<td width="9%">login_event_01</td>
+<td width="10%">验证传入正确的账号、密码、验证码</td>
+<td width="7%" bgcolor="#00FFFF">success</td>
+<td width="15%">2020-06-20 14:07:47</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">登录接口</td>
+<td width="9%">login_event_02</td>
+<td width="10%">验证账号传入为空</td>
+<td width="7%" bgcolor="red">failed</td>
+<td width="15%">2020-06-20 14:07:47</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">登录接口</td>
+<td width="9%">login_event_03</td>
+<td width="10%">验证密码传入为空</td>
+<td width="7%" bgcolor="red">failed</td>
+<td width="15%">2020-06-20 14:07:47</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">登录接口</td>
+<td width="9%">login_event_04</td>
+<td width="10%">验证验证码传入为空</td>
+<td width="7%" bgcolor="red">failed</td>
+<td width="15%">2020-06-20 14:07:47</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">登录接口</td>
+<td width="9%">login_event_05</td>
+<td width="10%">验证是否记住状态传入为空</td>
+<td width="7%" bgcolor="red">failed</td>
+<td width="15%">2020-06-20 14:07:47</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">登录接口</td>
+<td width="9%">login_event_06</td>
+<td width="10%">验证传入错误的账号</td>
+<td width="7%" bgcolor="#00FFFF">success</td>
+<td width="15%">2020-06-20 14:07:47</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">登录接口</td>
+<td width="9%">login_event_07</td>
+<td width="10%">验证传入错误的密码</td>
+<td width="7%" bgcolor="#00FFFF">success</td>
+<td width="15%">2020-06-20 14:07:47</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">登录接口</td>
+<td width="9%">login_event_08</td>
+<td width="10%">验证传入错误的验证码</td>
+<td width="7%" bgcolor="red">failed</td>
+<td width="15%">2020-06-20 14:07:47</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">登录接口</td>
+<td width="9%">login_event_09</td>
+<td width="10%">验证传入sql语句</td>
+<td width="7%" bgcolor="#00FFFF">success</td>
+<td width="15%">2020-06-20 14:07:48</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">登录接口</td>
+<td width="9%">login_event_10</td>
+<td width="10%">验证传入超长账号</td>
+<td width="7%" bgcolor="#00FFFF">success</td>
+<td width="15%">2020-06-20 14:07:48</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">登录接口</td>
+<td width="9%">login_event_11</td>
+<td width="10%">验证传入大小写相反的账号</td>
+<td width="7%" bgcolor="red">failed</td>
+<td width="15%">2020-06-20 14:07:48</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">登录接口</td>
+<td width="9%">login_event_12</td>
+<td width="10%">验证使用get请求方法</td>
+<td width="7%" bgcolor="red">failed</td>
+<td width="15%">2020-06-20 14:07:48</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">解密接口</td>
+<td width="9%">pwd_event_01</td>
+<td width="10%">验证传入正确的密码</td>
+<td width="7%" bgcolor="#00FFFF">success</td>
+<td width="15%">2020-06-20 14:07:51</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">解密接口</td>
+<td width="9%">pwd_event_02</td>
+<td width="10%">验证二级密码传入为空</td>
+<td width="7%" bgcolor="#00FFFF">success</td>
+<td width="15%">2020-06-20 14:07:51</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">解密接口</td>
+<td width="9%">pwd_event_03</td>
+<td width="10%">验证传入错误的二级密码</td>
+<td width="7%" bgcolor="#00FFFF">success</td>
+<td width="15%">2020-06-20 14:07:51</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">解密接口</td>
+<td width="9%">pwd_event_04</td>
+<td width="10%">验证传入超长的二级密码</td>
+<td width="7%" bgcolor="#00FFFF">success</td>
+<td width="15%">2020-06-20 14:07:51</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">简历上传接口</td>
+<td width="9%">upload_event_01</td>
+<td width="10%">验证正常传入参数上传简历</td>
+<td width="7%" bgcolor="#00FFFF">success</td>
+<td width="15%">2020-06-20 14:07:52</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">简历上传接口</td>
+<td width="9%">upload_event_02</td>
+<td width="10%">验证区域入参为空</td>
+<td width="7%" bgcolor="red">failed</td>
+<td width="15%">2020-06-20 14:07:52</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">简历上传接口</td>
+<td width="9%">upload_event_03</td>
+<td width="10%">验证部门入参为空</td>
+<td width="7%" bgcolor="red">failed</td>
+<td width="15%">2020-06-20 14:07:52</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">简历上传接口</td>
+<td width="9%">upload_event_04</td>
+<td width="10%">验证文件入参为空</td>
+<td width="7%" bgcolor="red">error</td>
+<td width="15%">2020-06-20 14:07:52</td>
+<td width="15%">出错了</td>
+</tr><tr height="40">
+<td width="7%">简历上传接口</td>
+<td width="9%">upload_event_05</td>
+<td width="10%">验证文件入参为非.xlsx文件</td>
+<td width="7%" bgcolor="red">error</td>
+<td width="15%">2020-06-20 14:07:52</td>
+<td width="15%">出错了</td>
+</tr><tr height="40">
+<td width="7%">简历上传接口</td>
+<td width="9%">upload_event_06</td>
+<td width="10%">验证上传内容错误的简历</td>
+<td width="7%" bgcolor="red">error</td>
+<td width="15%">2020-06-20 14:07:52</td>
+<td width="15%">出错了</td>
+</tr><tr height="40">
+<td width="7%">简历上传接口</td>
+<td width="9%">upload_event_07</td>
+<td width="10%">验证上传已存在的学员信息</td>
+<td width="7%" bgcolor="#00FFFF">success</td>
+<td width="15%">2020-06-20 14:07:53</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">新增资源接口</td>
+<td width="9%">addsrc_event_01</td>
+<td width="10%">验证传入所有正确参数</td>
+<td width="7%" bgcolor="red">failed</td>
+<td width="15%">2020-06-20 14:07:53</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">新增资源接口</td>
+<td width="9%">addsrc_event_02</td>
+<td width="10%">验证传入错误的电话号码</td>
+<td width="7%" bgcolor="red">failed</td>
+<td width="15%">2020-06-20 14:07:53</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">新增资源接口</td>
+<td width="9%">addsrc_event_03</td>
+<td width="10%">验证传入超长电话号码</td>
+<td width="7%" bgcolor="red">failed</td>
+<td width="15%">2020-06-20 14:07:53</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">新增资源接口</td>
+<td width="9%">addsrc_event_04</td>
+<td width="10%">验证不传入电话号码</td>
+<td width="7%" bgcolor="red">failed</td>
+<td width="15%">2020-06-20 14:07:53</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">新增资源接口</td>
+<td width="9%">addsrc_event_05</td>
+<td width="10%">验证传入特殊字符电话号码</td>
+<td width="7%" bgcolor="red">failed</td>
+<td width="15%">2020-06-20 14:07:53</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">新增资源接口</td>
+<td width="9%">addsrc_event_06</td>
+<td width="10%">验证电话号码传入html标签</td>
+<td width="7%" bgcolor="red">failed</td>
+<td width="15%">2020-06-20 14:07:53</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">新增资源接口</td>
+<td width="9%">addsrc_event_07</td>
+<td width="10%">验证不传入姓名</td>
+<td width="7%" bgcolor="red">failed</td>
+<td width="15%">2020-06-20 14:07:53</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">新增资源接口</td>
+<td width="9%">addsrc_event_08</td>
+<td width="10%">验证不传入性别</td>
+<td width="7%" bgcolor="red">failed</td>
+<td width="15%">2020-06-20 14:07:53</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">新增资源接口</td>
+<td width="9%">addsrc_event_09</td>
+<td width="10%">验证最新状态传入为空</td>
+<td width="7%" bgcolor="red">failed</td>
+<td width="15%">2020-06-20 14:07:53</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">新增资源接口</td>
+<td width="9%">addsrc_event_10</td>
+<td width="10%">验证最新状态传入html标签</td>
+<td width="7%" bgcolor="red">failed</td>
+<td width="15%">2020-06-20 14:07:53</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">新增资源接口</td>
+<td width="9%">addsrc_event_11</td>
+<td width="10%">验证工作经验传入html标签</td>
+<td width="7%" bgcolor="red">failed</td>
+<td width="15%">2020-06-20 14:07:53</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">新增资源接口</td>
+<td width="9%">addsrc_event_12</td>
+<td width="10%">验证不传入工作经验</td>
+<td width="7%" bgcolor="red">failed</td>
+<td width="15%">2020-06-20 14:07:53</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">新增资源接口</td>
+<td width="9%">addsrc_event_13</td>
+<td width="10%">验证不传入渠道来源</td>
+<td width="7%" bgcolor="red">failed</td>
+<td width="15%">2020-06-20 14:07:53</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">新增资源接口</td>
+<td width="9%">addsrc_event_14</td>
+<td width="10%">验证渠道来源传入html标签</td>
+<td width="7%" bgcolor="red">failed</td>
+<td width="15%">2020-06-20 14:07:53</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">新增资源接口</td>
+<td width="9%">addsrc_event_15</td>
+<td width="10%">验证传入错误格式邮箱</td>
+<td width="7%" bgcolor="red">failed</td>
+<td width="15%">2020-06-20 14:07:53</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">新增资源接口</td>
+<td width="9%">addsrc_event_16</td>
+<td width="10%">验证邮箱传入html标签</td>
+<td width="7%" bgcolor="red">failed</td>
+<td width="15%">2020-06-20 14:07:53</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">新增资源接口</td>
+<td width="9%">addsrc_event_17</td>
+<td width="10%">验证学校入参为html标签</td>
+<td width="7%" bgcolor="red">failed</td>
+<td width="15%">2020-06-20 14:07:53</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">新增资源接口</td>
+<td width="9%">addsrc_event_18</td>
+<td width="10%">验证专业入参为html标签</td>
+<td width="7%" bgcolor="red">failed</td>
+<td width="15%">2020-06-20 14:07:53</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">新增资源接口</td>
+<td width="9%">addsrc_event_19</td>
+<td width="10%">验证学历入参为html标签</td>
+<td width="7%" bgcolor="red">failed</td>
+<td width="15%">2020-06-20 14:07:53</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">新增资源接口</td>
+<td width="9%">addsrc_event_20</td>
+<td width="10%">验证学习方向入参为html标签</td>
+<td width="7%" bgcolor="red">failed</td>
+<td width="15%">2020-06-20 14:07:54</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">新增资源接口</td>
+<td width="9%">addsrc_event_21</td>
+<td width="10%">验证年龄入参包含符号和中文</td>
+<td width="7%" bgcolor="red">failed</td>
+<td width="15%">2020-06-20 14:07:54</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">新增资源接口</td>
+<td width="9%">addsrc_event_22</td>
+<td width="10%">验证工作经验入参为html标签</td>
+<td width="7%" bgcolor="red">failed</td>
+<td width="15%">2020-06-20 14:07:54</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">新增资源接口</td>
+<td width="9%">addsrc_event_23</td>
+<td width="10%">验证最后跟踪入参为html标签</td>
+<td width="7%" bgcolor="red">failed</td>
+<td width="15%">2020-06-20 14:07:54</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">查询资源接口</td>
+<td width="9%">search_event_01</td>
+<td width="10%">验证入口参数正确传入</td>
+<td width="7%" bgcolor="red">failed</td>
+<td width="15%">2020-06-20 14:07:54</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">查询资源接口</td>
+<td width="9%">search_event_02</td>
+<td width="10%">验证最新状态传入已上门</td>
+<td width="7%" bgcolor="red">failed</td>
+<td width="15%">2020-06-20 14:07:54</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">查询资源接口</td>
+<td width="9%">search_event_03</td>
+<td width="10%">验证每页信息数入口参数为非数字</td>
+<td width="7%" bgcolor="red">failed</td>
+<td width="15%">2020-06-20 14:07:54</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">查询资源接口</td>
+<td width="9%">search_event_04</td>
+<td width="10%">验证每页信息数入口参数为空</td>
+<td width="7%" bgcolor="red">failed</td>
+<td width="15%">2020-06-20 14:07:54</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">查询资源接口</td>
+<td width="9%">search_event_05</td>
+<td width="10%">验证页数入口参数为空</td>
+<td width="7%" bgcolor="red">failed</td>
+<td width="15%">2020-06-20 14:07:54</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">查询资源接口</td>
+<td width="9%">search_event_06</td>
+<td width="10%">验证页数入口参数为非数字</td>
+<td width="7%" bgcolor="red">failed</td>
+<td width="15%">2020-06-20 14:07:54</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">查询资源接口</td>
+<td width="9%">search_event_07</td>
+<td width="10%">验证状态入参包含特殊字符</td>
+<td width="7%" bgcolor="red">failed</td>
+<td width="15%">2020-06-20 14:07:54</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">查询资源接口</td>
+<td width="9%">search_event_08</td>
+<td width="10%">验证客户信息入参为错误的信息</td>
+<td width="7%" bgcolor="red">failed</td>
+<td width="15%">2020-06-20 14:07:54</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">查询资源接口</td>
+<td width="9%">search_event_09</td>
+<td width="10%">验证咨询师入参为特殊字符</td>
+<td width="7%" bgcolor="red">failed</td>
+<td width="15%">2020-06-20 14:07:54</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">查询资源接口</td>
+<td width="9%">search_event_10</td>
+<td width="10%">验证开始时间入参晚于结束时间入参</td>
+<td width="7%" bgcolor="red">failed</td>
+<td width="15%">2020-06-20 14:07:54</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">跟踪资源接口</td>
+<td width="9%">tracksrc_event_01</td>
+<td width="10%">验证传入正确的密码</td>
+<td width="7%" bgcolor="red">failed</td>
+<td width="15%">2020-06-20 14:07:54</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">跟踪资源接口</td>
+<td width="9%">tracksrc_event_02</td>
+<td width="10%">验证客户id入参为空</td>
+<td width="7%" bgcolor="red">failed</td>
+<td width="15%">2020-06-20 14:07:54</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">跟踪资源接口</td>
+<td width="9%">tracksrc_event_03</td>
+<td width="10%">验证年龄入参为空</td>
+<td width="7%" bgcolor="red">failed</td>
+<td width="15%">2020-06-20 14:07:55</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">跟踪资源接口</td>
+<td width="9%">tracksrc_event_04</td>
+<td width="10%">验证本次状态入参为空</td>
+<td width="7%" bgcolor="red">failed</td>
+<td width="15%">2020-06-20 14:07:55</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">跟踪资源接口</td>
+<td width="9%">tracksrc_event_05</td>
+<td width="10%">验证应缴学费入参为空</td>
+<td width="7%" bgcolor="red">failed</td>
+<td width="15%">2020-06-20 14:07:55</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">跟踪资源接口</td>
+<td width="9%">tracksrc_event_06</td>
+<td width="10%">验证classId入参为空</td>
+<td width="7%" bgcolor="red">failed</td>
+<td width="15%">2020-06-20 14:07:55</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">跟踪资源接口</td>
+<td width="9%">tracksrc_event_07</td>
+<td width="10%">验证重要程度入参为空</td>
+<td width="7%" bgcolor="red">failed</td>
+<td width="15%">2020-06-20 14:07:55</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">跟踪资源接口</td>
+<td width="9%">tracksrc_event_08</td>
+<td width="10%">验证下次跟踪时间入参为空</td>
+<td width="7%" bgcolor="red">failed</td>
+<td width="15%">2020-06-20 14:07:55</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">跟踪资源接口</td>
+<td width="9%">tracksrc_event_09</td>
+<td width="10%">验证备注入参为空</td>
+<td width="7%" bgcolor="red">failed</td>
+<td width="15%">2020-06-20 14:07:55</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">缴费接口</td>
+<td width="9%">payment_event_01</td>
+<td width="10%">验证正确传入所有参数</td>
+<td width="7%" bgcolor="#00FFFF">success</td>
+<td width="15%">2020-06-20 14:07:55</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">缴费接口</td>
+<td width="9%">payment_event_02</td>
+<td width="10%">验证学生id入口参数为空</td>
+<td width="7%" bgcolor="red">failed</td>
+<td width="15%">2020-06-20 14:07:55</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">缴费接口</td>
+<td width="9%">payment_event_03</td>
+<td width="10%">验证缴费类型入口参数为空</td>
+<td width="7%" bgcolor="red">failed</td>
+<td width="15%">2020-06-20 14:07:55</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">缴费接口</td>
+<td width="9%">payment_event_04</td>
+<td width="10%">验证学生姓名入口参数为空</td>
+<td width="7%" bgcolor="red">failed</td>
+<td width="15%">2020-06-20 14:07:55</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">缴费接口</td>
+<td width="9%">payment_event_05</td>
+<td width="10%">验证学生学号入参为空</td>
+<td width="7%" bgcolor="red">failed</td>
+<td width="15%">2020-06-20 14:07:56</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">缴费接口</td>
+<td width="9%">payment_event_06</td>
+<td width="10%">验证学生应缴费用入参为空</td>
+<td width="7%" bgcolor="red">failed</td>
+<td width="15%">2020-06-20 14:07:56</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">缴费接口</td>
+<td width="9%">payment_event_07</td>
+<td width="10%">验证实缴金额入参为空</td>
+<td width="7%" bgcolor="red">failed</td>
+<td width="15%">2020-06-20 14:07:56</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">缴费接口</td>
+<td width="9%">payment_event_08</td>
+<td width="10%">验证未缴纳金额入参为空</td>
+<td width="7%" bgcolor="red">failed</td>
+<td width="15%">2020-06-20 14:07:56</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">缴费接口</td>
+<td width="9%">payment_event_09</td>
+<td width="10%">验证交易账户入参为空</td>
+<td width="7%" bgcolor="red">failed</td>
+<td width="15%">2020-06-20 14:07:56</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">缴费接口</td>
+<td width="9%">payment_event_10</td>
+<td width="10%">验证账号编号入参为空</td>
+<td width="7%" bgcolor="red">failed</td>
+<td width="15%">2020-06-20 14:07:56</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">缴费接口</td>
+<td width="9%">payment_event_11</td>
+<td width="10%">验证交易账号入参为空</td>
+<td width="7%" bgcolor="red">failed</td>
+<td width="15%">2020-06-20 14:07:56</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">缴费接口</td>
+<td width="9%">payment_event_12</td>
+<td width="10%">验证支付方式入参为空</td>
+<td width="7%" bgcolor="red">failed</td>
+<td width="15%">2020-06-20 14:07:56</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">缴费接口</td>
+<td width="9%">payment_event_13</td>
+<td width="10%">验证缴费日期入参为空</td>
+<td width="7%" bgcolor="red">failed</td>
+<td width="15%">2020-06-20 14:07:56</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">缴费接口</td>
+<td width="9%">payment_event_14</td>
+<td width="10%">验证缴费日期入参为当日日期之后</td>
+<td width="7%" bgcolor="red">failed</td>
+<td width="15%">2020-06-20 14:07:56</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">缴费接口</td>
+<td width="9%">payment_event_15</td>
+<td width="10%">验证缴费金额入参为当日日期之后</td>
+<td width="7%" bgcolor="red">failed</td>
+<td width="15%">2020-06-20 14:07:56</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">缴费接口</td>
+<td width="9%">payment_event_16</td>
+<td width="10%">验证缴费情况入参为空</td>
+<td width="7%" bgcolor="red">failed</td>
+<td width="15%">2020-06-20 14:07:56</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">缴费接口</td>
+<td width="9%">payment_event_17</td>
+<td width="10%">验证备注入参为空</td>
+<td width="7%" bgcolor="red">failed</td>
+<td width="15%">2020-06-20 14:07:56</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">查询待缴费接口</td>
+<td width="9%">searchmoney_event_01</td>
+<td width="10%">验证正常传入参数</td>
+<td width="7%" bgcolor="red">failed</td>
+<td width="15%">2020-06-20 14:07:56</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">查询待缴费接口</td>
+<td width="9%">searchmoney_event_02</td>
+<td width="10%">验证每页信息条数入参为空</td>
+<td width="7%" bgcolor="red">failed</td>
+<td width="15%">2020-06-20 14:07:56</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">查询待缴费接口</td>
+<td width="9%">searchmoney_event_03</td>
+<td width="10%">验证区域入参为空</td>
+<td width="7%" bgcolor="#00FFFF">success</td>
+<td width="15%">2020-06-20 14:07:56</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">查询待缴费接口</td>
+<td width="9%">searchmoney_event_04</td>
+<td width="10%">验证学生姓名入参为不存在的</td>
+<td width="7%" bgcolor="#00FFFF">success</td>
+<td width="15%">2020-06-20 14:07:56</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">查询待缴费接口</td>
+<td width="9%">searchmoney_event_05</td>
+<td width="10%">验证缴费状态入参为空</td>
+<td width="7%" bgcolor="#00FFFF">success</td>
+<td width="15%">2020-06-20 14:07:56</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">查询待缴费接口</td>
+<td width="9%">searchmoney_event_06</td>
+<td width="10%">验证学生姓名入参为空</td>
+<td width="7%" bgcolor="#00FFFF">success</td>
+<td width="15%">2020-06-20 14:07:56</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">查询待缴费接口</td>
+<td width="9%">searchmoney_event_06</td>
+<td width="10%">验证方向入参为空</td>
+<td width="7%" bgcolor="#00FFFF">success</td>
+<td width="15%">2020-06-20 14:07:57</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">查询待缴费接口</td>
+<td width="9%">searchmoney_event_06</td>
+<td width="10%">验证班级编号入参为空</td>
+<td width="7%" bgcolor="red">failed</td>
+<td width="15%">2020-06-20 14:07:57</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">查询待缴费接口</td>
+<td width="9%">searchmoney_event_06</td>
+<td width="10%">验证退款类型入参为空</td>
+<td width="7%" bgcolor="#00FFFF">success</td>
+<td width="15%">2020-06-20 14:07:57</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">简历上传接口</td>
+<td width="9%">cookie_event_01</td>
+<td width="10%">验证正常传入参数上传简历</td>
+<td width="7%" bgcolor="red">failed</td>
+<td width="15%">2020-06-20 14:07:57</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">新增资源接口</td>
+<td width="9%">cookie_event_02</td>
+<td width="10%">验证传入所有正确参数</td>
+<td width="7%" bgcolor="red">failed</td>
+<td width="15%">2020-06-20 14:07:57</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">查询资源接口</td>
+<td width="9%">cookie_event_03</td>
+<td width="10%">验证入口参数正确传入</td>
+<td width="7%" bgcolor="red">failed</td>
+<td width="15%">2020-06-20 14:07:57</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">跟踪资源接口</td>
+<td width="9%">cookie_event_04</td>
+<td width="10%">验证传入正确的密码</td>
+<td width="7%" bgcolor="red">failed</td>
+<td width="15%">2020-06-20 14:07:57</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">缴费接口</td>
+<td width="9%">cookie_event_05</td>
+<td width="10%">验证正确传入所有参数</td>
+<td width="7%" bgcolor="red">failed</td>
+<td width="15%">2020-06-20 14:07:57</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">查询待缴费接口</td>
+<td width="9%">cookie_event_06</td>
+<td width="10%">验证正常传入参数</td>
+<td width="7%" bgcolor="red">failed</td>
+<td width="15%">2020-06-20 14:07:57</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">注销接口</td>
+<td width="9%">cookie_event_07</td>
+<td width="10%">验证正常调用注销接口</td>
+<td width="7%" bgcolor="red">failed</td>
+<td width="15%">2020-06-20 14:07:57</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">简历上传接口</td>
+<td width="9%">safe_event_01</td>
+<td width="10%">验证正常传入参数上传简历</td>
+<td width="7%" bgcolor="red">failed</td>
+<td width="15%">2020-06-20 14:07:57</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">新增资源接口</td>
+<td width="9%">safe_event_02</td>
+<td width="10%">验证传入所有正确参数</td>
+<td width="7%" bgcolor="red">failed</td>
+<td width="15%">2020-06-20 14:07:57</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">查询资源接口</td>
+<td width="9%">safe_event_03</td>
+<td width="10%">验证入口参数正确传入</td>
+<td width="7%" bgcolor="red">failed</td>
+<td width="15%">2020-06-20 14:07:57</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">跟踪资源接口</td>
+<td width="9%">safe_event_04</td>
+<td width="10%">验证传入正确的密码</td>
+<td width="7%" bgcolor="red">failed</td>
+<td width="15%">2020-06-20 14:07:57</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">缴费接口</td>
+<td width="9%">safe_event_05</td>
+<td width="10%">验证正确传入所有参数</td>
+<td width="7%" bgcolor="red">failed</td>
+<td width="15%">2020-06-20 14:07:57</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">查询待缴费接口</td>
+<td width="9%">safe_event_06</td>
+<td width="10%">验证正常传入参数</td>
+<td width="7%" bgcolor="red">failed</td>
+<td width="15%">2020-06-20 14:07:57</td>
+<td width="15%">无</td>
+</tr><tr height="40">
+<td width="7%">注销接口</td>
+<td width="9%">safe_event_07</td>
+<td width="10%">验证正常调用注销接口</td>
+<td width="7%" bgcolor="red">failed</td>
+<td width="15%">2020-06-20 14:07:57</td>
+<td width="15%">无</td>
+</tr>
+    </table>
+    </body>
+    </html>
