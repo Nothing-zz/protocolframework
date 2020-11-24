@@ -109,5 +109,9 @@ if __name__ == '__main__':
     s.upload_scence()
     # s.verify_cookie()
     # s.safe_scence()
+<<<<<<< HEAD
     #俺在此
     
+=======
+    sada
+>>>>>>> 9915d5e28f8cde8d223ba86779701f5bc92c80ad
